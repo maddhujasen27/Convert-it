@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cel_Fah"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the temperature"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+        <EditText
+            android:background="@drawable/btn_shape"
+            android:id="@+id/Celsius"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Temperature in Celsius"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/Fahrenheit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Covert to fahrenheit"/>
+
+        <EditText
+            android:background="@drawable/btn_shape"
+            android:id="@+id/Fahrenheit"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Temperature in Fahrenheit"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/Celsius_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Covert to Celsius"/>
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Result"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textSize="25dp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
